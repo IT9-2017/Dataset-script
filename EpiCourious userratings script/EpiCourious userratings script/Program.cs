@@ -14,6 +14,7 @@ namespace EpiCourious_userratings_script
         static void Main(string[] args)
         {
 
+            SearchString();
             loopUsers();
             Console.ReadLine();
 
@@ -32,20 +33,28 @@ namespace EpiCourious_userratings_script
             return htmlCode;
         }
 
-        public static string SearchString()
+        public static void SearchString()
         {
             string htmlCode = HtmlFetcher();
 
 
-            string s = "\"reviewerInfo\":\"SoftSculptor\",\"rating\":4,\"location\":\"Richmond, VA\",\"userId\":\"2bd764c9 - f720 - 4ae0 - a955 - c7b2793c377e\"";
+            string s1 = "\"reviewerInfo\":\"SoftSculptor\",\"rating\":4,\"location\":\"Richmond, VA\",\"userId\":\"2bd764c9 - f720 - 4ae0 - a955 - c7b2793c377e\"";
+            string s = "";
+            int a = 0;
 
             MatchCollection allMatchResults = null;
             Regex regexObj = new Regex(@"reviewerInfo.*?.recipeId");         
             MatchCollection matches = regexObj.Matches(htmlCode);
-            foreach (Match match in matches)
+
+            foreach (var item in matches)
             {
-                Console.WriteLine(match);
+                s += "\n " + a.ToString() + item;
+                a++;
             }
+
+            Console.WriteLine(s);
+
+
 
             /*
             Regex reg = new Regex("\\b" + Regex.Escape("reviewerInfo") + "\\b", RegexOptions.IgnoreCase);
@@ -98,7 +107,7 @@ namespace EpiCourious_userratings_script
 
             #endregion
 
-            return searchUsername+ " " + searchRating + " " + searchUserID;
+            //return searchUsername+ " " + searchRating + " " + searchUserID;
             
         }
 
@@ -149,10 +158,11 @@ namespace EpiCourious_userratings_script
       
 
             Console.WriteLine("here is count "+ count);
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < 1; i++)
             {
-                Console.WriteLine(SearchString());
+                Console.WriteLine();
             }
+            
 
             
         }
