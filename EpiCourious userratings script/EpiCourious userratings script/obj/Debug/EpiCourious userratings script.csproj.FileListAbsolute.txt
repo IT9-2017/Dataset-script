@@ -1,0 +1,10 @@
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\bin\Debug\EpiCourious userratings script.exe.config
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\bin\Debug\EpiCourious userratings script.exe
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\bin\Debug\EpiCourious userratings script.pdb
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\obj\Debug\EpiCourious userratings script.csprojResolveAssemblyReference.cache
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\obj\Debug\EpiCourious userratings script.csproj.CoreCompileInputs.cache
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\obj\Debug\EpiCourious userratings script.exe
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\obj\Debug\EpiCourious userratings script.pdb
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Studie-bruger\OneDrive - Aalborg Universitet\9. Semester\Projekt\c# scripts\EpiCourious userratings script\EpiCourious userratings script\bin\Debug\HtmlAgilityPack.xml
